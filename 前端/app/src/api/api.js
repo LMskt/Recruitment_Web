@@ -3,10 +3,8 @@ import axios from "axios";
 import el from "element-ui/src/locale/lang/el";
 import router from "@/router";
 
-// let localbaseURL='https://localhost:8881/';
-// let localbaseURL='https://129.28.159.48:8881/';
-// let localbaseURL='https://wantyou.csust-iotlab.com/';
-let localbaseURL='https://yidaodao.top/';
+ let localbaseURL='https://localhost:8881/';
+
 axios.defaults.baseURL=localbaseURL;
 
 export var host=localbaseURL;
